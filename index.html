@@ -42,7 +42,7 @@
     .search_form{
         width:602px;
         height:42px;	
-	    margin-top:30px;	
+	    margin-top:50px;	
 		padding-left:80px
     }
  
@@ -76,25 +76,6 @@
         color:white;/*搜索的字体颜色为白色*/
         cursor:pointer;/*鼠标变为小手*/
     }
-	
-	
-	#wrap {
-    height: auto;
-    margin: 0 auto;
-    overflow: hidden;
-	}
-	
-	#top {
-    margin-top: 3%;
-    width: 100%;
-    height: 162px;
-	}
-	
-	#main {
-    margin-top: 4%;
-	}
-
-	
     </style>
 	
     <style type="text/css">
@@ -323,88 +304,92 @@
 
 			<div id="main">
 			<!-- 外网访问地址 -->
+			
 				<div id="app" class="app animated fadeInLeft">
 					<ul class="clearfix">
 						<li>
-							<a href="https://text.dokor.cn" target="_blank"><img class="shake" src="img/png/home.png" /><strong>Text</strong></a>
+							<a href="https://www.dokor.cn" target="_blank"><img class="shake" src="img/png/home.png" /><strong>Home</strong></a>
 						</li>
 						<li>
 							<a href="https://music.dokor.cn" target="_blank"><img class="shake" src="img/png/Music.png" /><strong>Music</strong></a>
 						</li>
 						<li>
-							<a href="https://cloud.dokor.cn:9920" target="_blank"><img class="shake" src="img/png/emby.png" /><strong>Emby</strong></a>
+							<a href="https://emby.dokor.cn" target="_blank"><img class="shake" src="img/png/emby.png" /><strong>Emby</strong></a>
 						</li>
 						<li>
-							<a href="https://cloud.dokor.cn:8920" target="_blank"><img class="shake" src="img/png/jellyfin.png" /><strong>Jellyfin</strong></a>
+							<a href="https://video.dokor.cn" target="_blank"><img class="shake" src="img/png/jellyfin.png" /><strong>Jellyfin</strong></a>
 						</li>							
 						<li>
-							<a href="https://cloud.dokor.cn:6082/" target="_blank"><img class="shake" src="img/png/qb.png" /><strong>qBittorrent</strong></a>
+							<a href="https://qb.dokor.cn" target="_blank"><img class="shake" src="img/png/qb.png" /><strong>qBittorrent</strong></a>
 						</li>	
 						<li>
-							<a href="https://cloud.dokor.cn:6081" target="_blank"><img class="shake" src="img/png/tr.png" /><strong>Transmission</strong></a>
+							<a href="https://tr.dokor.cn" target="_blank"><img class="shake" src="img/png/tr.png" /><strong>Transmission</strong></a>
 						</li>	
 						<li>
-							<a href="https://cloud.dokor.cn:31" target="_blank"><img class="shake" src="img/png/iCloud-Drive.png" /><strong>Zdir</strong></a>
+							<a href="https://yun.dokor.cn" target="_blank"><img class="shake" src="img/png/iCloud-Drive.png" /><strong>Zdir</strong></a>
 						</li>
 					
 						<li>
-							<a href="https://cloud.dokor.cn:9000" target="_blank"><img class="shake" src="img/png/docker.png" /><strong>Docker</strong></a>
+							<a href="https://docker.dokor.cn" target="_blank"><img class="shake" src="img/png/docker.png" /><strong>Docker</strong></a>
 						</li>	
 						<li>
-							<a href="https://cloud.dokor.cn:2211" target="_blank"><img class="shake" src="img/png/Settings.png" /><strong>System</strong></a>
+							<a href="https://dsm.dokor.cn" target="_blank"><img class="shake" src="img/png/Settings.png" /><strong>System</strong></a>
 						</li>						
 						<li>
-							<a href="https://cloud.dokor.cn:92" target="_blank"><img class="shake" src="img/png/esxi.png" /><strong>Esxi</strong></a>
+							<a href="https://esxi.dokor.cn" target="_blank"><img class="shake" src="img/png/esxi.png" /><strong>Esxi</strong></a>
 						</li>						
 						<li>
-							<a href="https://cloud.dokor.cn:901" target="_blank"><img class="shake" src="img/png/openwrt.png" /><strong>OpenWrt</strong></a>
+							<a href="https://openwrt.dokor.cn" target="_blank"><img class="shake" src="img/png/openwrt.png" /><strong>OpenWrt</strong></a>
 						</li>
 						<li>
-							<a href="https://cloud.dokor.cn:94" target="_blank"><img class="shake" src="img/png/ikuai.png" /><strong>iKuai</strong></a>
+							<a href="https://tmm.dokor.cn" target="_blank"><img class="shake" src="img/png/tmm.png" /><strong>TMM</strong></a>
 						</li>
 					</ul>
 				</div>
-				<!-- 内网网访问地址 -->
-				<!-- <div id="app1" class="app animated fadeInRight"> -->
-					<!-- <ul> -->
+			
+			
+				<!-- <div id="app" class="app animated fadeInLeft"> -->
+					<!-- <ul class="clearfix"> -->
 						<!-- <li> -->
-							<!-- <a href="http://10.10.10.10:8090/" target="_blank"><img class="shake" src="img/png/AppStore.png" /><strong>主页</strong></a> -->
+							<!-- <a href="https://www.dokor.cn" target="_blank"><img class="shake" src="img/png/home.png" /><strong>Home</strong></a> -->
 						<!-- </li> -->
 						<!-- <li> -->
-							<!-- <a href="http://10.10.10.10:264" target="_blank"><img class="shake" src="img/png/Music.png" /><strong>音乐</strong></a> -->
+							<!-- <a href="https://music.dokor.cn" target="_blank"><img class="shake" src="img/png/Music.png" /><strong>Music</strong></a> -->
 						<!-- </li> -->
 						<!-- <li> -->
-							<!-- <a href="http://10.10.10.10:8096" target="_blank"><img class="shake" src="img/png/Videos.png" /><strong>电影</strong></a> -->
-						<!-- </li>											 -->
-						<!-- <li> -->
-							<!-- <a href="http://10.10.10.10:10002" target="_blank"><img class="shake" src="img/png/FontExplorer-X.png" /><strong>云盘</strong></a> -->
+							<!-- <a href="https://cloud.dokor.cn:9920" target="_blank"><img class="shake" src="img/png/emby.png" /><strong>Emby</strong></a> -->
 						<!-- </li> -->
 						<!-- <li> -->
-							<!-- <a href="http://10.10.10.10:9091" target="_blank"><img class="shake" src="img/png/Thunder.png" /><strong>Transmission</strong></a> -->
+							<!-- <a href="https://cloud.dokor.cn:8920" target="_blank"><img class="shake" src="img/png/jellyfin.png" /><strong>Jellyfin</strong></a> -->
+						<!-- </li>							 -->
+						<!-- <li> -->
+							<!-- <a href="https://cloud.dokor.cn:6082/" target="_blank"><img class="shake" src="img/png/qb.png" /><strong>qBittorrent</strong></a> -->
+						<!-- </li>	 -->
+						<!-- <li> -->
+							<!-- <a href="https://cloud.dokor.cn:6081" target="_blank"><img class="shake" src="img/png/tr.png" /><strong>Transmission</strong></a> -->
+						<!-- </li>	 -->
+						<!-- <li> -->
+							<!-- <a href="https://cloud.dokor.cn:31" target="_blank"><img class="shake" src="img/png/iCloud-Drive.png" /><strong>Zdir</strong></a> -->
+						<!-- </li> -->
+					
+						<!-- <li> -->
+							<!-- <a href="https://cloud.dokor.cn:9000" target="_blank"><img class="shake" src="img/png/docker.png" /><strong>Docker</strong></a> -->
+						<!-- </li>	 -->
+						<!-- <li> -->
+							<!-- <a href="https://cloud.dokor.cn:2211" target="_blank"><img class="shake" src="img/png/Settings.png" /><strong>System</strong></a> -->
+						<!-- </li>						 -->
+						<!-- <li> -->
+							<!-- <a href="https://cloud.dokor.cn:92" target="_blank"><img class="shake" src="img/png/esxi.png" /><strong>Esxi</strong></a> -->
+						<!-- </li>						 -->
+						<!-- <li> -->
+							<!-- <a href="https://cloud.dokor.cn:901" target="_blank"><img class="shake" src="img/png/openwrt.png" /><strong>OpenWrt</strong></a> -->
 						<!-- </li> -->
 						<!-- <li> -->
-							<!-- <a href="https://10.10.10.10:8001" target="_blank"><img class="shake" src="img/png/Transmission.png" /><strong>远程下载</strong></a> -->
-						<!-- </li> -->
-						<!-- <li> -->
-							<!-- <a href="https://10.10.10.10/21681" target="_blank"><img class="shake" src="img/png/email1.png" /><strong>邮箱</strong></a> -->
-						<!-- </li> -->
-						<!-- <li> -->
-							<!-- <a href="http://10.10.10.10:2200" target="_blank"><img class="shake" src="img/png/Settings.png" /><strong>后台管理</strong></a> -->
-						<!-- </li> -->
-						<!-- <li> -->
-							<!-- <a href="http://10.10.10.2" target="_blank"><img class="shake" src="img/png/Photos.png" /><strong>虚拟机</strong></a> -->
-						<!-- </li> -->
-						<!-- <li> -->
-							<!-- <a href="http://10.10.10.1" target="_blank"><img class="shake" src="img/png/Downloads.png" /><strong>OpenWrt</strong></a> -->
-						<!-- </li> -->
-						<!-- <li> -->
-							<!-- <a href="http://10.10.10.3" target="_blank"><img class="shake" src="img/png/Podcats.png" /><strong>iKuai</strong></a> -->
-						<!-- </li> -->
-						<!-- <li> -->
-							<!-- <a href="http://10.10.10.5" target="_blank"><img class="shake" src="img/png/iCloud-Drive.png" /><strong>AP管理</strong></a> -->
+							<!-- <a href="https://cloud.dokor.cn:94" target="_blank"><img class="shake" src="img/png/ikuai.png" /><strong>iKuai</strong></a> -->
 						<!-- </li> -->
 					<!-- </ul> -->
 				<!-- </div> -->
+
 				<div style="clear: both;"></div>
 			</div>
 		</div>
